@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* Typography */
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 29px;
+  &._sm {
+    font-size: 27px;
+  }
+}
+h4 {
+  font-size: 24px;
+  &._sm {
+    font-size: 23px;
+  }
+}
+h5 {
+  font-size: 22px;
+  &._sm {
+    font-size: 21px;
+  }
+}
+h6 {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-primary;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.8em;
+  &._lg {
+    font-size: 27px;
+  }
+  &._sm {
+    font-size: 16px;
+  }
+}
